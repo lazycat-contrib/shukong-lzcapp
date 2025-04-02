@@ -1,0 +1,14 @@
+lzc-sdk-version: 0.1
+name: 书空
+package: cloud.lazycat.app.shukong
+version: 0.2.0
+description: 一个优雅的汉字笔顺学习应用，让汉字书写学习变得轻松有趣。
+license: hhttp://www.apache.org/licenses/
+homepage: https://github.com/vipzhicheng/shukong-app
+author: vipzhicheng
+application:
+  subdomain: shukong
+  public_path:
+    - /
+  routes:
+    - /=file:///lzcapp/pkg/content/
